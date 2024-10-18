@@ -12,7 +12,7 @@ app = FastAPI()
 
 # Environment variables
 API_URL = "https://api-inference.huggingface.co/models/yisol/IDM-VTON"
-API_TOKEN = os.environ.get('HUGGINGFACE_API_TOKEN', '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')
+API_TOKEN = os.environ.get('HUGGINGFACE_API_TOKEN')
 
 # Constants
 MAX_RETRIES = 3
